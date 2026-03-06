@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GELL | Conecte-se</title>
+
+<style>
+
+:root{
+--azul:#2f5cff;
+--azul-hover:#2447c7;
+--preto:#0f0f0f;
+--cinza:#f4f6fb;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;
+}
+
+body{
+background:linear-gradient(180deg,#0f0f0f,#151515);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+min-height:100vh;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:420px;
+text-align:center;
+}
+
+.logo{
+width:200px;
+margin:auto;
+margin-bottom:30px;
+padding:10px;
+border-radius:12px;
+background:radial-gradient(circle, rgba(47,92,255,0.25) 0%, rgba(0,0,0,0) 70%);
+}
+
+.mensagem{
+font-size:18px;
+color:#cfd3ff;
+margin-bottom:35px;
+}
+
+.botao{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:12px;
+text-decoration:none;
+color:white;
+background:var(--azul);
+padding:16px;
+border-radius:14px;
+font-size:17px;
+font-weight:600;
+margin-bottom:15px;
+transition:all .25s ease;
+box-shadow:0 6px 18px rgba(47,92,255,.25);
+}
+
+.botao:hover{
+background:var(--azul-hover);
+transform:translateY(-2px);
+box-shadow:0 8px 22px rgba(47,92,255,.35);
+}
+
+.botao:active{
+transform:scale(.97);
+}
+
+footer{
+margin-top:35px;
+font-size:13px;
+color:#777;
+}
+
+@media (min-width:700px){
+
+body{
+background:#0f0f0f;
+}
+
+.container{
+background:#151515;
+padding:40px;
+border-radius:18px;
+box-shadow:0 10px 40px rgba(0,0,0,.4);
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<div class="mensagem">
+Confira nossas redes sociais e fale com a gente
+</div>
+
+<a class="botao" href="https://www.instagram.com/lojagell" target="_blank">
+Instagram
+</a>
+
+<a class="botao" href="https://www.usegell.com.br" target="_blank">
+Site Oficial
+</a>
+
+<a class="botao" href="https://wa.me/5562996233624" target="_blank">
+WhatsApp
+</a>
+
+<footer>
+© GELL
+</footer>
+
+</div>
+
+</body>
+</html>
